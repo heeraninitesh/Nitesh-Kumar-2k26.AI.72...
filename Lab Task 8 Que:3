@@ -1,0 +1,8 @@
+def sum_numbers(*args):
+    """
+    Calculate the sum of multiple numbers using *args.
+    """
+    total = 0
+    for num in args:
+        total += num
+    return total
