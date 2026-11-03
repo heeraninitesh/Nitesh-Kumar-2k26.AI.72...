@@ -1,0 +1,9 @@
+def display_student_info(**student):
+    """
+    Display student information using keyword arguments.
+    """
+    print("Student Information:")
+    print("-" * 30)
+    for key, value in student.items():
+        print(f"  {key.capitalize()}: {value}")
+    print("-" * 30)

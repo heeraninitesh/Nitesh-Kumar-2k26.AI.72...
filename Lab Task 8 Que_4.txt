@@ -1,0 +1,9 @@
+def display_employee_info(**kwargs):
+    """
+    Display employee information using **kwargs.
+    """
+    print("Employee Information:")
+    print("-" * 30)
+    for key, value in kwargs.items():
+        print(f"  {key.replace('_', ' ').title()}: {value}")
+    print("-" * 30)
